@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rokkitt:400,800" rel="stylesheet">
+    <title>Smash Face</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Smash Faces</h1>
+      <hr>
+      <p id="descripcion">Bienvenidas al juego de Smash Faces, tu misión es poder identificar a
+       todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5
+       oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+    </nav>
+    <section>
+      <div class="cabecera">
+        <div class="navbar-left">
+          <span>Elige tu sede:  </span>
+          <select id="sedes" name="sedes">
+            <option>Lima</option>
+            <option>Mexico</option>
+          </select>
+        </div>
+        <div class="navbar-right">
+          <span>Puntos: </span>
+          <span id="puntaje">0</span>
+          <span> Puntos</span>
+        </div>
+      </div>
+    </section>
+    <section id="areaDeJuego">
+      <div class="fotos">
+        <img src="fotos/mexico/Alma Patricia Jimenez.JPG" alt="">
+      </div>
+      <div class="juego">
+        <div class="tamañoInput">
+          <p>Ingresa su nombre:</p>
+          <input id="inputNombre" type="text" name="nombre" placeholder="Nombre" value="">
+        </div>
+        <button class="comprobar" type="button" name="button">COMPROBAR</button>
+      </div>
+    </section>
+    <script src="js/mexico.js" charset="utf-8"></script>
+    <script src="js/peru.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>

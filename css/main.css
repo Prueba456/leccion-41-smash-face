@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  padding: 10px;
+}
+h1{
+  font-family: 'Rokkitt', serif;
+  color: #3d3b3b;
+}
+#descripcion{
+  font-family: 'Roboto', sans-serif;
+}
+hr{
+  width: 30px;
+  height: 3px;
+  border: 1px solid #3d3b3b;
+  background-color: #3d3b3b;
+  margin-bottom: 30px;
+}
+.cabecera{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-left{
+  display: inline-block;
+}
+.navbar-right{
+  display: inline-block;
+}
+#sedes{
+  background-color: #cccccc;
+  width: 150px;
+  margin-left: 12px;
+}
+#areaDeJuego{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+.fotos{
+  left: 0;
+  width: 40%;
+}
+.fotos img{
+  width: 100%;
+}
+
+.juego{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  right: 0;
+  background-color: #3d3b3b;
+  width: 60%;
+  color: white;
+  margin-bottom: 5px;
+  padding-top: 40px;
+}
+.comprobar{
+  background-color: #F9A91A;
+  border: 0;
+  color: white;
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+}
+#inputNombre{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.tamañoInput{
+  width: 70%;
+}
