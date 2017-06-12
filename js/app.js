@@ -13,45 +13,28 @@ const cargarfotomexico = (j)=>{
 }
 
 $("#sedes").change(function(){
-if($('select[id=sedes]').val()=='lima'){
-  cargarfoto(0);
-  $('.comprobar').click(function(){
-    if ($('#inputNombre').val()==peru[i].name && i<peru.length){
-      i = i+1;
-      cargarfoto(i);
-    }else{
-      $('#inputNombre').val()== "Termino juego";
-    }
-    console.log(peru[i].name);
-    // $('#inputNombre').empty();
-  });
-} else {
-  cargarfotomexico(0);
-  $('.comprobar').click(function(){
-    if ($('#inputNombre').val()==mexico[j].name){
-      j = j+1;
-      cargarfotomexico(j);
-    }
-    console.log(mexico[j].name);
-  });
-}
-
-});
-
-
-
-
-
-
-if($('#sedes').val()=="lima"){
-  cargarfoto(0);
-  $('.comprobar').click(function(){
-    if ($('#inputNombre').val()==peru[i].name){
-      i = i+1;
-      cargarfoto(i);
+  if($('select[id=sedes]').val()=='lima'){
+    cargarfoto(0);
+    $('.comprobar').click(function(){
+      if ($('#inputNombre').val()==peru[i].name && i<peru.length){
+        $('#inputNombre').empty();
+        console.log(peru.length);
+        i = i+1;
+        cargarfoto(i);
+      }else{
+        $('#inputNombre').val()== "Termino juego";
+      }
       console.log(peru[i].name);
-    }
+    });
+  } else {
+    cargarfotomexico(0);
+    $('.comprobar').click(function(){
+      if ($('#inputNombre').val()==mexico[j].name && i<mexico.length){
+        j = j+1;
+        cargarfotomexico(j);
+      }
+      console.log(mexico[j].name);
+    });
     $('#inputNombre').empty();
-  });
-}
-console.log(fotos);
+  }
+});
