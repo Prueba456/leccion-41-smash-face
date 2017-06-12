@@ -1,20 +1,20 @@
 var peru =  [{
-              image:"Ana Paula Verme.jpg",
+              image:"Ana Paula Verme.JPG",
               name:"Ana"
             },{
               image:"Joselyn Inga.JPG",
               name:"Joselyn"
             },{
-              image:"Antonella Gutierrez.jpg",
-              name:"Antonella" 
+              image:"Antonella Gutierrez.JPG",
+              name:"Antonella"
             },{
               image:"Karen Valdivia.JPG",
               name:"Karen"
             },{
-              image:"Astrid Cordova.jpg",
+              image:"Astrid Cordova.JPG",
               name:"Astrid"
             },{
-              image:"Carmenrosa Arias.jpg",
+              image:"Carmenrosa Arias.JPG",
               name:"Carmenrosa"
             },{
               image:"Daniela Segura.JPG",
@@ -23,19 +23,19 @@ var peru =  [{
               image:"Diana Santisteban.JPG",
               name:"Diana"
             },{
-              image:"Emily Elena Vivanco.jpg",
+              image:"Emily Elena Vivanco.JPG",
               name:"Emily"
             },{
-              image:"Gabriela Segura.jpg",
+              image:"Gabriela Segura.JPG",
               name:"Gabriela"
             },{
-              image:"Genesis Leon.jpg", 
+              image:"Genesis Leon.JPG",
               name:"Genesis"
             },{
-              image:"Ingrid Dariana Patiño.jpg",
+              image:"Ingrid Dariana Patiño.JPG",
               name:"Dariana"
             },{
-              image:"Janet Huacahuasi.jpg",
+              image:"Janet Huacahuasi.JPG",
               name:"Janet"
             },{
               image:"Jenny Vega.JPG",
@@ -53,10 +53,10 @@ var peru =  [{
               image:"Pierina Acevedo.JPG",
               name:"Pierina"
             },{
-              image:"Karina Prado.jpg",
+              image:"Karina Prado.JPG",
               name:"Karina"
             },{
-              image:"Karla Rios.jpg",
+              image:"Karla Rios.JPG",
               name:"Karla"
             },{
               image:"Katherine Llacza.JPG",
@@ -71,25 +71,25 @@ var peru =  [{
               image:"Lizeth Lopez.JPG",
               name:"Lizeth"
             },{
-              image:"Magaly Flores.jpg",
+              image:"Magaly Flores.JPG",
               name:"Magaly"
             },{
               image:"Maria Cecilia Limay.JPG",
               name:"Cecilia"
             },{
-              image:"Maria Victoria Cardenas.jpg",
+              image:"Maria Victoria Cardenas.JPG",
               name:"Maria Victoria"
             },{
-              image:"Merlin Rupay.jpg",
+              image:"Merlin Rupay.JPG",
               name:"Stefanny"
             },{
               image:"Milu Robles.JPG",
               name:"Milu"
             },{
-              image:"Monica Ccencho.jpg",
+              image:"Monica Ccencho.JPG",
               name:"Monica"
             },{
-              image:"Nayra Pillihuaman.jpg",
+              image:"Nayra Pillihuaman.JPG",
               name:"Nayra"
             },{
               image:"Patricia Arakawa.JPG",
@@ -98,7 +98,7 @@ var peru =  [{
               image:"Reina Torrejón.JPG",
               name:"Reina"
             },{
-              image:"Rita Ortiz.jpg",
+              image:"Rita Ortiz.JPG",
               name:"Rita"
             },{
               image:"Sandra Azabache.JPG",
@@ -107,18 +107,18 @@ var peru =  [{
               image:"Sara Nolasco.JPG",
               name:"Sara"
             },{
-              image:"Sarita Roman.jpg",
+              image:"Sarita Roman.JPG",
               name:"Sarita"
             },{
               image:"Tania Cuya.JPG",
               name:"Tania"
             },{
-              image:"Vanessa Alvarado.jpg",
+              image:"Vanessa Alvarado.JPG",
               name:"Vanessa"
             },{
               image:"Vanessa Vargas.JPG",
               name:"Vanessa"
             },{
-              image:"Vickensi de la Cruz.jpg",
+              image:"Vickensi de la Cruz.JPG",
               name:"Vickensi"
             }];
